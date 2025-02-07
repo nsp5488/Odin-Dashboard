@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Admin Dashboard</title>
+        <link href="styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="sidebar">
+                <div
+                    style="
+                        display: grid;
+                        grid-template-columns: 1fr 3fr;
+                        align-items: center;
+                    "
+                >
+                    <img
+                        src="assets/view-dashboard.svg"
+                        style="
+                            filter: invert(100%);
+                            width: 40px;
+                            aspect-ratio: 1;
+                        "
+                    />
+
+                    <h3>Dashboard</h3>
+                </div>
+                <ul>
+                    <li>
+                        <button class="textBtn">
+                            <img src="assets/home-variant-outline.svg" />Home
+                        </button>
+                    </li>
+                    <li>
+                        <button class="textBtn">
+                            <img
+                                src="assets/card-account-details-outline.svg"
+                            />
+                            Profile
+                        </button>
+                    </li>
+                    <li>
+                        <button class="textBtn">
+                            <img src="assets/message-text.svg" />Messages
+                        </button>
+                    </li>
+                    <li>
+                        <button class="textBtn">
+                            <img src="assets/clock-time-three.svg" />History
+                        </button>
+                    </li>
+                    <li>
+                        <button class="textBtn">
+                            <img src="assets/note-multiple.svg" />Tasks
+                        </button>
+                    </li>
+                    <li>
+                        <button class="textBtn">
+                            <img src="assets/account-group.svg" />Community
+                        </button>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <button class="textBtn">
+                            <img src="assets/cog.svg" />Settings
+                        </button>
+                    </li>
+                    <li>
+                        <button class="textBtn">
+                            <img src="assets/help-circle.svg" />Support
+                        </button>
+                    </li>
+                    <li>
+                        <button class="textBtn">
+                            <img src="assets/shield-check.svg" />Privacy
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar">
+                <div class="topRow">
+                    <div style="display: flex; align-items: center">
+                        <button class="iconBtn">
+                            <img src="assets/magnify.svg" />
+                        </button>
+
+                        <input type="text" />
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                <button class="iconBtn">
+                                    <img src="assets/bell-ring-outline.svg" />
+                                </button>
+                            </li>
+                            <li>
+                                <button class="profileBtn">
+                                    <img src="assets/44146715.png" />
+                                </button>
+                            </li>
+
+                            <li>
+                                <h5>User</h5>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bottomRow">
+                    <div style="display: flex; gap: 15px; align-items: center">
+                        <img class="profile" src="assets/44146715.png" />
+
+                        <div>
+                            <p>Hi there,</p>
+                            <h2>USER (@user)</h2>
+                        </div>
+                    </div>
+                    <ul class="navBtns">
+                        <li><button>New</button></li>
+                        <li><button>Upload</button></li>
+                        <li><button>Share</button></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="body">
+                <div class="projects">
+                    <p>Your Projects</p>
+                    <div class="project-holder">
+                        <div class="card project">
+                            <div class="cardContent">
+                                <p><b>Project Title</b></p>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip
+                                    ex ea commodo consequat. Duis aute irure
+                                    dolor in reprehenderit in voluptate velit
+                                    esse cillum dolore eu fugiat nulla pariatur.
+                                    Excepteur sint occaecat cupidatat non
+                                    proident, sunt in culpa qui officia deserunt
+                                    mollit anim id est laborum./p>
+                                </p>
+                            </div>
+                            <div class="projectBtns">
+                                <button class="iconBtn">
+                                    <img src="assets/star-plus-outline.svg" />
+                                </button>
+                                <button class="iconBtn">
+                                    <img src="assets/eye-plus-outline.svg" />
+                                </button>
+                                <button class="iconBtn">
+                                    <img src="assets/source-fork.svg" />
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card project">
+                            <div class="cardContent">
+                                <p><b>Project Title</b></p>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip
+                                    ex ea commodo consequat. Duis aute irure
+                                    dolor in reprehenderit in voluptate velit
+                                    esse cillum dolore eu fugiat nulla pariatur.
+                                    Excepteur sint occaecat cupidatat non
+                                    proident, sunt in culpa qui officia deserunt
+                                    mollit anim id est laborum./p>
+                                </p>
+                            </div>
+                            <div class="projectBtns">
+                                <button class="iconBtn">
+                                    <img src="assets/star-plus-outline.svg" />
+                                </button>
+                                <button class="iconBtn">
+                                    <img src="assets/eye-plus-outline.svg" />
+                                </button>
+                                <button class="iconBtn">
+                                    <img src="assets/source-fork.svg" />
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card project">
+                            <div class="cardContent">
+                                <p><b>Project Title</b></p>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip
+                                    ex ea commodo consequat. Duis aute irure
+                                    dolor in reprehenderit in voluptate velit
+                                    esse cillum dolore eu fugiat nulla pariatur.
+                                    Excepteur sint occaecat cupidatat non
+                                    proident, sunt in culpa qui officia deserunt
+                                    mollit anim id est laborum./p>
+                                </p>
+                            </div>
+                            <div class="projectBtns">
+                                <button class="iconBtn">
+                                    <img src="assets/star-plus-outline.svg" />
+                                </button>
+                                <button class="iconBtn">
+                                    <img src="assets/eye-plus-outline.svg" />
+                                </button>
+                                <button class="iconBtn">
+                                    <img src="assets/source-fork.svg" />
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card project">
+                            <div class="cardContent">
+                                <p><b>Project Title</b></p>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip
+                                    ex ea commodo consequat. Duis aute irure
+                                    dolor in reprehenderit in voluptate velit
+                                    esse cillum dolore eu fugiat nulla pariatur.
+                                    Excepteur sint occaecat cupidatat non
+                                    proident, sunt in culpa qui officia deserunt
+                                    mollit anim id est laborum./p>
+                                </p>
+                            </div>
+                            <div class="projectBtns">
+                                <button class="iconBtn">
+                                    <img src="assets/star-plus-outline.svg" />
+                                </button>
+                                <button class="iconBtn">
+                                    <img src="assets/eye-plus-outline.svg" />
+                                </button>
+                                <button class="iconBtn">
+                                    <img src="assets/source-fork.svg" />
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card project">
+                            <div class="cardContent">
+                                <p><b>Project Title</b></p>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip
+                                    ex ea commodo consequat. Duis aute irure
+                                    dolor in reprehenderit in voluptate velit
+                                    esse cillum dolore eu fugiat nulla pariatur.
+                                    Excepteur sint occaecat cupidatat non
+                                    proident, sunt in culpa qui officia deserunt
+                                    mollit anim id est laborum./p>
+                                </p>
+                            </div>
+                            <div class="projectBtns">
+                                <button class="iconBtn">
+                                    <img src="assets/star-plus-outline.svg" />
+                                </button>
+                                <button class="iconBtn">
+                                    <img src="assets/eye-plus-outline.svg" />
+                                </button>
+                                <button class="iconBtn">
+                                    <img src="assets/source-fork.svg" />
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card project">
+                            <div class="cardContent">
+                                <p><b>Project Title</b></p>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip
+                                    ex ea commodo consequat. Duis aute irure
+                                    dolor in reprehenderit in voluptate velit
+                                    esse cillum dolore eu fugiat nulla pariatur.
+                                    Excepteur sint occaecat cupidatat non
+                                    proident, sunt in culpa qui officia deserunt
+                                    mollit anim id est laborum./p>
+                                </p>
+                            </div>
+                            <div class="projectBtns">
+                                <button class="iconBtn">
+                                    <img src="assets/star-plus-outline.svg" />
+                                </button>
+                                <button class="iconBtn">
+                                    <img src="assets/eye-plus-outline.svg" />
+                                </button>
+                                <button class="iconBtn">
+                                    <img src="assets/source-fork.svg" />
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="announcements">
+                    <p>Announcements</p>
+                    <div class="card">
+                        <ul>
+                            <li>
+                                <div class="cardContent">
+                                    <p><b>Site Maintenance</b></p>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna
+                                        aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris
+                                        nisi ut aliquip ex ea commodo consequat.
+                                        Duis aute irure dolor in reprehenderit
+                                        in voluptate velit esse cillum dolore eu
+                                        fugiat nulla pariatur. Excepteur sint
+                                        occaecat cupidatat non proident, sunt in
+                                        culpa qui officia deserunt mollit anim
+                                        id est laborum.
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cardContent">
+                                    <p><b>Community Share Day</b></p>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna
+                                        aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris
+                                        nisi ut aliquip ex ea commodo consequat.
+                                        Duis aute irure dolor in reprehenderit
+                                        in voluptate velit esse cillum dolore eu
+                                        fugiat nulla pariatur. Excepteur sint
+                                        occaecat cupidatat non proident, sunt in
+                                        culpa qui officia deserunt mollit anim
+                                        id est laborum.
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cardContent">
+                                    <p><b>Updated Privacy Policy</b></p>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna
+                                        aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris
+                                        nisi ut aliquip ex ea commodo consequat.
+                                        Duis aute irure dolor in reprehenderit
+                                        in voluptate velit esse cillum dolore eu
+                                        fugiat nulla pariatur. Excepteur sint
+                                        occaecat cupidatat non proident, sunt in
+                                        culpa qui officia deserunt mollit anim
+                                        id est laborum.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="trending">
+                    <p>Trending</p>
+                    <div class="card">
+                        <ul>
+                            <li>
+                                <img src="assets/44146715.png" />
+                                <p>@tegan</p>
+                                <p>World Peace Builder</p>
+                            </li>
+                            <li>
+                                <img src="assets/44146715.png" />
+                                <p>@tegan</p>
+                                <p>World Peace Builder</p>
+                            </li>
+                            <li>
+                                <img src="assets/44146715.png" />
+                                <p>@tegan</p>
+                                <p>World Peace Builder</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
